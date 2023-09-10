@@ -2,7 +2,7 @@ from django.test import TestCase
 from django.contrib.auth.models import User
 from django.utils import timezone
 
-from .models import Post
+from blog.models import Post
 
 
 class PostModelTest(TestCase):
@@ -142,3 +142,10 @@ class PostModelTest(TestCase):
         response = self.client.get(post.get_absolute_url())
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, "blog/post/detail.html")
+
+    def test_post_share_view(self):
+        # Test that the post_share view returns the correct status code and template
+        post = Post.objects.get(id=1)
+        response = self.client.get(f"/blog/{post.id}/share/")
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, "blog/post/share.html")
