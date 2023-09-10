@@ -111,3 +111,34 @@ class PostModelTest(TestCase):
     #     post = Post.objects.get(id=1)
     #     related_name = post._meta.get_field("author").related_name
     #     self.assertEqual(related_name, "blog_posts")
+
+    def test_object_name(self):
+        # Test that the object name is correct
+        post = Post.objects.get(id=1)
+        expected_object_name = post.title
+        self.assertEqual(expected_object_name, str(post))
+
+    def test_get_absolute_url(self):
+        # Test that the get_absolute_url method returns the correct url
+        post = Post.objects.get(id=1)
+        expected_url = f"/blog/{post.publish.year}/{post.publish.month}/{post.publish.day}/{post.slug}/"
+        self.assertEqual(expected_url, post.get_absolute_url())
+
+    def test_published_manager(self):
+        # Test that the published manager returns only published posts
+        posts = Post.published.all()
+        self.assertEqual(len(posts), 1)
+        self.assertEqual(posts[0].title, "Test post")
+
+    def test_post_list_view(self):
+        # Test that the post_list view returns the correct status code and template
+        response = self.client.get("/blog/")
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, "blog/post/list.html")
+
+    def test_post_detail_view(self):
+        # Test that the post_detail view returns the correct status code and template
+        post = Post.objects.get(id=1)
+        response = self.client.get(post.get_absolute_url())
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, "blog/post/detail.html")
