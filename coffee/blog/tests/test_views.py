@@ -1,8 +1,9 @@
 from django.test import TestCase
 from django.contrib.auth.models import User
 from django.utils import timezone
+from django.urls import reverse
 
-from blog.models import Post
+from blog.models import Post, Comment
 
 
 class PostModelTest(TestCase):
@@ -106,12 +107,6 @@ class PostModelTest(TestCase):
         indexes = Post._meta.indexes[0].fields
         self.assertEqual(indexes, ["-publish"])
 
-    # def test_author_related_name(self):
-    #     # Test that the author field has the correct related_name
-    #     post = Post.objects.get(id=1)
-    #     related_name = post._meta.get_field("author").related_name
-    #     self.assertEqual(related_name, "blog_posts")
-
     def test_object_name(self):
         # Test that the object name is correct
         post = Post.objects.get(id=1)
@@ -149,3 +144,33 @@ class PostModelTest(TestCase):
         response = self.client.get(f"/blog/{post.id}/share/")
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, "blog/post/share.html")
+
+    def test_view_handles_valid_form(self):
+        # Test that the view handles a valid form submission
+        post = Post.objects.get(id=1)
+        data = {
+            "name": "Test commenter",
+            "email": "test@test.com",
+            "body": "This is a test comment",
+        }
+        response = self.client.post(
+            reverse("blog:post_comment", args=[post.id]), data=data
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertTrue(Comment.objects.filter(post=post).exists())
+        self.assertContains(response, "Your comment has been added.")
+
+    def test_view_handles_invalid_form(self):
+        # Test that the view handles an invalid form submission
+        post = Post.objects.get(id=1)
+        data = {
+            "name": "",
+            "email": "",
+            "body": "",
+        }
+        response = self.client.post(
+            reverse("blog:post_comment", args=[post.id]), data=data
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertFalse(Comment.objects.filter(post=post).exists())
+        self.assertFormError(response, "form", "name", "This field is required.")
