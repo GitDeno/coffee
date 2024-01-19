@@ -7,9 +7,9 @@ This is a simple blog template that I created for the purpose of practicing my s
 To run "Coffee blog" locally, follow these steps:
 
 - Clone the repository:
-git clone 
+
 ```
-https://github.com/GitDeno/coffee.git
+git clone https://github.com/GitDeno/coffee.git
 ```
 
 - Create a Python virtual environment and activate it:
