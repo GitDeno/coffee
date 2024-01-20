@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "jazzmin",  # Admin site will be replaced by django-jazzmin.
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
