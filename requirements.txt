@@ -3,3 +3,4 @@ sqlparse==0.4.4
 tzdata==2023.3
 django==4.2.5
 python-dotenv==0.17.1
+django-jazzmin==2.6.0
