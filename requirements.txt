@@ -5,3 +5,4 @@ django==4.2.5
 python-dotenv==0.17.1
 django-jazzmin==2.6.0
 django-taggit==5.0.1
+markdown==3.5.2
