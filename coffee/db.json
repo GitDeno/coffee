@@ -1,0 +1,1028 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-01-19T17:19:51.492Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "How to Make the Perfect Latte at Home",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-01-19T17:20:26.073Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "The Benefits of Drinking Coffee Every Day",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-01-19T17:20:55.489Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "The History of Coffee: From Ethiopia to the World",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-01-19T17:27:11.234Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Best Coffee Beans for Espresso Lovers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-01-19T17:27:29.016Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "How to Store Your Coffee Beans Properly",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-01-19T17:27:40.470Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "The Difference Between Arabica and Robusta Coffee Beans",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-01-20T18:05:11.330Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "How to Make the Perfect Latte at Home",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-01-20T18:05:17.479Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "The Benefits of Drinking Coffee Every Day",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-01-20T18:05:26.343Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "The History of Coffee: From Ethiopia to the World",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-01-20T18:05:30.288Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Best Coffee Beans for Espresso Lovers",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-01-20T18:05:34.301Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "How to Store Your Coffee Beans Properly",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-01-20T18:07:43.381Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "How to Make the Perfect Latte at Home",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-01-20T18:07:43.384Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "The Benefits of Drinking Coffee Every Day",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-01-20T18:07:43.386Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "The History of Coffee: From Ethiopia to the World",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-01-20T18:07:43.389Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Best Coffee Beans for Espresso Lovers",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-01-20T18:07:43.391Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "How to Store Your Coffee Beans Properly",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-01-20T18:07:43.394Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "The Difference Between Arabica and Robusta Coffee Beans",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-01-27T14:49:20.109Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "coffee",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-01-27T14:50:13.366Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "coffee",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"How to Make the Perfect Latte at Home tagged with coffee\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-01-27T14:52:16.709Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "How to Make the Perfect Latte at Home",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-01-27T15:01:10.890Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "coffee",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"The Benefits of Drinking Coffee Every Day tagged with coffee\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"The History of Coffee: From Ethiopia to the World tagged with coffee\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"The Best Coffee Beans for Espresso Lovers tagged with coffee\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-01-27T15:01:42.430Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "How to Store Your Coffee Beans Properly",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-01-28T19:00:17.867Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "A Comprehensive Guide to Coffee: Types, Health Benefits, and How to Make It",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-01-28T19:02:21.857Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "A Comprehensive Guide to Coffee: Types, Health Benefits, and How to Make It",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-01-28T19:02:54.927Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "A Comprehensive Guide to Coffee: Types, Health Benefits, and How to Make It",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Jwwe8TwqeXxwcpBxz99jsh$4AwNK4vx0Bd+zSi3Nb70ssA90q5bLNbbO6vk+bhSYBM=",
+    "last_login": "2024-01-28T18:54:29.453Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@admin.eu",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-01-19T16:49:01.380Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dln3gnpkyh7sqqgu3zevp4tru5c4l8ot",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDGAUpcuvcMhGEGqRqalHZlvLtt0oVu_3vvv1VM61Lj2mWOI6uLAnX63Sjlp7Qd8CO1-6Tz1JZ5JL0r-qBd3yaW1_Vw_w5q6nWrEQXdeUBG9izWg80Bc_EZCamAd9mJQ7sxbww44gAmGTBhIBCGoj5f1Cs3iA:1rRFCv:Egsienqv4SDqOjb8OMEGMU_k7k2n8IvgXt5wBlNpZrY",
+    "expire_date": "2024-02-03T17:32:37.378Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mbq3ayj5yuyz9ak7rvdj3evjm9fgvuqx",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDGAUpcuvcMhGEGqRqalHZlvLtt0oVu_3vvv1VM61Lj2mWOI6uLAnX63Sjlp7Qd8CO1-6Tz1JZ5JL0r-qBd3yaW1_Vw_w5q6nWrEQXdeUBG9izWg80Bc_EZCamAd9mJQ7sxbww44gAmGTBhIBCGoj5f1Cs3iA:1rTk9X:8i9EpqTM1u4LeGQXvpPknpCZJNtszJM5SY927R2HLDk",
+    "expire_date": "2024-02-10T14:59:27.543Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "oi20g27v3qx7gcu9lecehrt1imawziq7",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDGAUpcuvcMhGEGqRqalHZlvLtt0oVu_3vvv1VM61Lj2mWOI6uLAnX63Sjlp7Qd8CO1-6Tz1JZ5JL0r-qBd3yaW1_Vw_w5q6nWrEQXdeUBG9izWg80Bc_EZCamAd9mJQ7sxbww44gAmGTBhIBCGoj5f1Cs3iA:1rUAIX:CEcUpypz8oMz63HceRffwD0g1R1WFe8gstGiNzt2Mog",
+    "expire_date": "2024-02-11T18:54:29.457Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xvoazrmg02cauzmur9c5t3jkx85uzw19",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDGAUpcuvcMhGEGqRqalHZlvLtt0oVu_3vvv1VM61Lj2mWOI6uLAnX63Sjlp7Qd8CO1-6Tz1JZ5JL0r-qBd3yaW1_Vw_w5q6nWrEQXdeUBG9izWg80Bc_EZCamAd9mJQ7sxbww44gAmGTBhIBCGoj5f1Cs3iA:1rQs3V:sPoCoppB0DS5YlAXMt-de5w1237dMV8LUAaungYYjd4",
+    "expire_date": "2024-02-02T16:49:21.364Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "How to Make the Perfect Latte at Home",
+    "slug": "how-to-make-the-perfect-latte-at-home",
+    "author": 1,
+    "body": "If you love lattes, you don't need to spend a fortune at a coffee shop to enjoy them. You can make your own delicious lattes at home with just a few simple ingredients and tools. Here's what you need:\r\n\r\n- Espresso machine or moka pot\r\n- Milk frother or whisk\r\n- Milk of your choice (dairy, almond, oat, etc.)\r\n- Flavoring syrup or vanilla extract (optional)\r\n\r\nTo make the perfect latte, follow these steps:\r\n\r\n1. Brew a shot of espresso using your espresso machine or moka pot.\r\n2. Heat up some milk in a saucepan over medium-low heat, stirring occasionally. Don't let it boil or scorch.\r\n3. Froth the milk using a milk frother or a whisk until it forms soft peaks.\r\n4. Pour the espresso into a large mug and add some flavoring syrup or vanilla extract if you like.\r\n5. Spoon the frothed milk over the espresso, creating a thick layer of foam on top.\r\n6. Enjoy your homemade latte and feel proud of your barista skills!",
+    "publish": "2024-01-19T17:12:56Z",
+    "created": "2024-01-19T17:19:51.491Z",
+    "updated": "2024-01-27T14:52:16.705Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "The Benefits of Drinking Coffee Every Day",
+    "slug": "the-benefits-of-drinking-coffee-every-day",
+    "author": 1,
+    "body": "Coffee is not only a delicious beverage, but also a powerful ally for your health. Drinking coffee every day can provide you with many benefits, such as:\r\n\r\n- Boosting your energy and alertness\r\n- Improving your mood and cognitive function\r\n- Protecting your brain from degenerative diseases\r\n- Lowering your risk of type 2 diabetes and cardiovascular problems\r\n- Enhancing your physical performance and endurance\r\n- Fighting inflammation and oxidative stress\r\n- Supporting your liver and digestive health\r\n\r\nOf course, moderation is key, and you should avoid drinking too much coffee or adding too much sugar or cream to it. But if you enjoy a cup or two of coffee every day, you can reap the rewards of this amazing drink and improve your quality of life.",
+    "publish": "2024-01-19T17:20:00Z",
+    "created": "2024-01-19T17:20:26.072Z",
+    "updated": "2024-01-19T17:20:26.072Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "The History of Coffee: From Ethiopia to the World",
+    "slug": "the-history-of-coffee-from-ethiopia-to-the-world",
+    "author": 1,
+    "body": "Coffee is one of the most popular and widely consumed beverages in the world, but do you know where it came from and how it spread across the globe? Here's a brief history of coffee that will make you appreciate it even more.\r\n\r\n- The origin of coffee is traced back to Ethiopia, where legend has it that a goat herder named Kaldi noticed that his goats became more energetic after eating some red berries from a bush. He tried the berries himself and felt the same effect. He then shared his discovery with a local monk, who made a drink from the berries and used it to stay awake during his prayers.\r\n- The drink soon became popular among the monks and spread to other monasteries in the region. From there, it reached the Arabian Peninsula, where it was cultivated and traded by the Arabs, who called it qahwah, meaning \"wine of the bean\".\r\n- Coffee then traveled to Turkey, where it was brewed in a special pot called a cezve and served in small cups. The Turks also introduced the practice of adding spices, such as cardamom, cinnamon, and cloves, to the coffee.\r\n- Coffee then reached Europe through the ports of Venice and Marseilles, where it was initially met with suspicion and resistance by the church, who considered it a pagan drink. However, after Pope Clement VIII tasted it and approved it, coffee became accepted and fashionable among the Europeans, who opened the first coffee houses in Italy, France, and England.\r\n- Coffee then crossed the Atlantic Ocean to the Americas, where it was first planted in the Caribbean islands, such as Martinique and Jamaica, and then in Brazil, which became the largest coffee producer in the world. Coffee also played a role in the American Revolution, as the colonists boycotted the British tea and switched to coffee as a symbol of independence.\r\n- Coffee then continued to spread to other parts of the world, such as Asia and Africa, where it adapted to different climates and cultures. Today, coffee is grown in over 70 countries and enjoyed by millions of people every day, in various forms and styles.",
+    "publish": "2024-01-19T17:20:30Z",
+    "created": "2024-01-19T17:20:55.488Z",
+    "updated": "2024-01-19T17:20:55.488Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "The Best Coffee Beans for Espresso Lovers",
+    "slug": "the-best-coffee-beans-for-espresso-lovers",
+    "author": 1,
+    "body": "If you are an espresso lover, you know how important it is to choose the right coffee beans for your brew. Espresso is a concentrated and intense form of coffee, so you need beans that can deliver a rich and balanced flavor, a thick crema, and a smooth finish. Here are some tips on how to select the best coffee beans for espresso lovers:\r\n\r\n- Look for beans that are labeled as espresso, dark roast, or Italian roast. These beans are roasted longer and darker, which brings out their natural oils and caramelizes their sugars. This results in a fuller body, a lower acidity, and a sweeter taste.\r\n- Choose beans that are fresh and whole, not pre-ground. Grinding your beans right before brewing will ensure maximum freshness and flavor. Pre-ground beans can lose their aroma and freshness quickly, and may not be suitable for your espresso machine.\r\n- Experiment with different origins and blends. Coffee beans from different regions have different characteristics, such as aroma, flavor, acidity, body, and sweetness. You can try single-origin beans, which come from one specific country or region, or blends, which combine beans from different origins. Some popular origins for espresso are Brazil, Colombia, Ethiopia, and Indonesia. Some popular blends are Mocha Java, Espresso Roast, and French Roast.",
+    "publish": "2024-01-19T17:22:02Z",
+    "created": "2024-01-19T17:27:11.233Z",
+    "updated": "2024-01-19T17:27:11.233Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "How to Store Your Coffee Beans Properly",
+    "slug": "how-to-store-your-coffee-beans-properly",
+    "author": 1,
+    "body": "Coffee beans are sensitive to light, heat, moisture, and air. If you want to keep your coffee beans fresh and flavorful for as long as possible, you need to store them properly. Here are some tips on how to store your coffee beans properly:\r\n\r\n- Use an airtight container. Exposure to air can cause your coffee beans to oxidize and lose their flavor and aroma. You should store your coffee beans in an airtight container, such as a glass jar, a metal tin, or a ceramic canister. Avoid plastic containers, as they can absorb odors and affect the taste of your coffee.\r\n- Keep your container in a cool and dark place. Light and heat can also degrade your coffee beans and make them stale. You should keep your container in a cool and dark place, such as a pantry, a cupboard, or a drawer. Avoid storing your coffee beans near a window, a stove, a microwave, or a refrigerator.\r\n- Consume your coffee beans within a month. Coffee beans are best when they are fresh, so you should try to consume them within a month of roasting. If you buy more coffee beans than you can use in a month, you can freeze them in small batches and thaw them as needed. However, freezing and thawing can affect the quality of your coffee beans, so it is better to buy smaller amounts more frequently.",
+    "publish": "2024-01-19T17:27:17Z",
+    "created": "2024-01-19T17:27:29.015Z",
+    "updated": "2024-01-27T15:01:42.427Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "The Difference Between Arabica and Robusta Coffee Beans",
+    "slug": "the-difference-between-arabica-and-robusta-coffee-beans",
+    "author": 1,
+    "body": "Coffee beans are the seeds of the coffee plant, which belong to the genus Coffea. There are over 100 species of coffee plants, but the most common ones used for commercial coffee production are Arabica and Robusta. Here are some of the main differences between Arabica and Robusta coffee beans:\r\n\r\n- Arabica beans are more expensive and more popular than Robusta beans. Arabica beans account for about 60% of the world's coffee production, while Robusta beans account for about 40%. Arabica beans are more expensive because they are more difficult to grow and require higher altitudes, more rainfall, and more shade. Robusta beans are cheaper because they are more resilient and can grow in lower altitudes, less rainfall, and more sun.\r\n- Arabica beans have a higher quality and a more complex flavor than Robusta beans. Arabica beans have a smoother, sweeter, and more aromatic flavor, with notes of fruit, chocolate, and nuts. Robusta beans have a stronger, bitter, and more acidic flavor, with notes of earth, wood, and rubber. Arabica beans also have less caffeine and more antioxidants than Robusta beans, which makes them healthier and less stimulating.\r\n- Arabica beans and Robusta beans are often blended together to create different types of coffee. Arabica beans and Robusta beans have different characteristics that complement each other when blended. For example, adding Robusta beans to Arabica beans can increase the crema, the body, and the caffeine content of the coffee, while adding Arabica beans to Robusta beans can improve the flavor, the aroma, and the sweetness of the coffee. Some common blends are 80/20, 70/30, and 60/40, where the first number represents the percentage of Arabica beans and the second number represents the percentage of Robusta beans.",
+    "publish": "2024-01-19T17:27:34Z",
+    "created": "2024-01-19T17:27:40.468Z",
+    "updated": "2024-01-19T17:27:40.468Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "A Comprehensive Guide to Coffee: Types, Health Benefits, and How to Make It",
+    "slug": "a-comprehensive-guide-to-coffee-types-health-benefits-and-how-to-make-it",
+    "author": 1,
+    "body": "Coffee is a **popular** beverage that is enjoyed by millions of people around the world. It is made from roasted coffee beans and is usually served hot, although it can also be enjoyed cold.\r\n\r\n## Types of Coffee\r\n\r\nThere are many different types of coffee, including:\r\n\r\n- **Espresso**: A strong, concentrated coffee that is made by forcing hot water through finely ground coffee beans.\r\n- **Cappuccino**: A coffee drink that is made with espresso and steamed milk, and topped with foam.\r\n- **Latte**: A coffee drink that is made with espresso and steamed milk.\r\n\r\n## Health Benefits of Coffee\r\n\r\nCoffee has been shown to have several health benefits, including:\r\n\r\n- **Reducing the risk of type 2 diabetes**: Studies have shown that drinking coffee can reduce the risk of developing type 2 diabetes.\r\n- **Reducing the risk of liver cancer**: Drinking coffee has been linked to a reduced risk of liver cancer[^1^][1].\r\n- **Reducing the risk of Parkinson's disease**: Studies have shown that drinking coffee can reduce the risk of developing Parkinson's disease.\r\n\r\n## How to Make Coffee\r\n\r\nMaking coffee is easy! Here's how you can make a delicious cup of coffee at home:\r\n\r\n1. **Grind** fresh coffee beans.\r\n2. **Boil** water.\r\n3. **Add** the coffee grounds to a coffee filter.\r\n4. **Pour** the hot water over the coffee grounds.\r\n5. **Enjoy** your delicious cup of coffee!\r\n\r\nThat's it! With these simple steps, you can enjoy a delicious cup of coffee at home.",
+    "publish": "2024-01-28T18:54:40Z",
+    "created": "2024-01-28T19:00:17.861Z",
+    "updated": "2024-01-28T19:02:54.924Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "coffee",
+    "slug": "coffee"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "latte",
+    "slug": "latte"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "health",
+    "slug": "health"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "beverage",
+    "slug": "beverage"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 7
+  }
+}
+]
